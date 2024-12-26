@@ -1,0 +1,16 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer{
+    margin-top: 5em;
+    height: 10em;
+    background: rgb(78, 78, 126);
+    display: flex;
+}
+.h1Footer{ 
+    text-align: center;
+    margin: auto;
+    color: white;
+}

@@ -1,0 +1,21 @@
+body{
+    background: #dddee9;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.sobrenosmaior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.aboutUs{
+    width: 30em;
+}
+
+.imagemsobrenos{
+    width: 30em;
+}

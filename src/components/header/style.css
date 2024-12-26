@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    height: 5em;
+    background: rgb(78, 78, 126);
+
+}
+
+.containerheader{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.linkLogin{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;   
+}
+.linkLogin:hover{
+    text-shadow: 0 0 10px #fff;
+}
