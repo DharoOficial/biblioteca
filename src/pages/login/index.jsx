@@ -2,10 +2,11 @@ import './style.css'
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 function Login() {
-
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({ email: "", password: "" });
     const [error, setError] = useState("");
 
@@ -37,6 +38,7 @@ function Login() {
             
                 // Armazenar o token no LocalStorage
                 localStorage.setItem("jwtToken", token);
+                navigate('/dashboard')
               })
         } catch (err) {
             setError("Login falhou. Verifique suas credenciais.");

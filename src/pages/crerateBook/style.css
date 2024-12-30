@@ -1,0 +1,78 @@
+/* Estilo geral do formulário */
+.livro-form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Título do formulário */
+  .livro-form-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Grupo de cada campo do formulário */
+  .livro-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Rótulos */
+  .livro-form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Campos de input e textarea */
+  .livro-form-input,
+  .livro-form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Placeholder */
+  .livro-form-input::placeholder,
+  .livro-form-textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Botão de envio */
+  .livro-form-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .livro-form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Foco nos campos */
+  .livro-form-input:focus,
+  .livro-form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

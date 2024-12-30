@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/home';
 import Login from './pages/login';
+import Dashboard from './pages/dashboard';
+import CreateBook from './pages/crerateBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +15,8 @@ root.render(
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/dashboard' element={<Dashboard/>} />
+        <Route path='/dashboard/createBook' element={<CreateBook/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
